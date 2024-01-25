@@ -16,3 +16,4 @@ presentation.toc
 *.png
 *.pdf
 logos/*
+.DS_Store
