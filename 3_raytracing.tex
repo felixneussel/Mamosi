@@ -1,0 +1,280 @@
+\section{Implementing Raytracing}
+\begin{frame}{Raytracing Basics}
+\begin{columns}
+\column{0.6\textwidth}
+    \begin{itemize}
+   \item 3-D-coordinate system
+   \item Define:
+   \begin{itemize}
+       \item Camera position $x_{\text{camera}}$
+       \item Screen $=$ rectangle
+       \item Geometrical objects: Spheres, Triangles, ...
+   \end{itemize}
+   \item Grid of points on screen $\Leftrightarrow$ pixels of image
+   \item Pixel Color $=$ Vector of red, green, blue intensities
+   \item \textbf{Goal:} Compute color of each pixel
+   \end{itemize}
+   \column{0.4\textwidth}
+   \begin{figure}
+                \centering
+                \includegraphics[width=0.7\linewidth]{Felix_1.png}
+            \end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Visibility Problem}
+    \begin{columns}
+        \column{0.6\textwidth}
+        \begin{itemize}
+            \item For each grid point $o\in\R^3$, define 
+            $$
+            \text{Direction: }d := o - x_{\text{camera}}
+            $$
+            $$
+            \text{Ray: } \{o + t d \ : \ t > 0\}
+            $$
+            \item For each object, compute intersection with ray
+            \item No intersection $\Rightarrow$ Pixel color $=$ background color (e.g. black)
+            \item $\exists$ intersection $\Rightarrow$ Pixel color $=$ color of closest object
+        \end{itemize}
+        \column{0.4\textwidth}
+        \begin{figure}
+                \centering
+                \includegraphics[width=0.6\linewidth]{Felix_2.png}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Visbility - Results}
+    \begin{figure}
+                \centering
+                \includegraphics[width=0.5\linewidth]{only_visibility.png}
+            \end{figure}
+\end{frame}
+
+\begin{frame}{Shadows}
+    \begin{columns}
+        \column{0.6\textwidth}
+        \begin{itemize}
+        \item Light source position: $x_{\text{light}}\in\R^3$
+        \item Intersection point: $x_{\text{inter}}$
+        \item Define
+        $$
+        \text{Shadow direction: }d_{\text{shadow}} := x_{\text{light}} - x_{\text{inter}}
+        $$
+        $$
+        \text{Shadow ray: }\{x_{\text{inter}} + t d_{\text{shadow}} \ : \ t > 0\}
+        $$
+        \item Shadow ray intersects other object $\Rightarrow$ $x_{\text{inter}}$ lies inside shadow
+        \item $\Rightarrow$ Pixel color $=$ background color
+        \end{itemize}
+        \column{0.4\textwidth}
+        \begin{figure}
+                \centering
+                \includegraphics[width=0.55\linewidth]{Felix_3.png}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Shadows - Results}
+    \begin{figure}
+                \centering
+                \includegraphics[width=0.5\linewidth]{visibility_shadows.png}
+            \end{figure}
+\end{frame}
+
+\begin{frame}{Shading}
+    \begin{columns}
+        \column{0.6\textwidth}
+        \begin{itemize}
+        \item Brightness depends on: 
+        \begin{itemize}
+            \item Distance to light source
+            \item Angle $\theta$ between shadow ray and surface normal $n$
+            \item $L > 0$: inherent magnitude of light source
+        \end{itemize}
+        \item Compute illumination factor 
+        $$
+        L \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
+        = L \frac{\cos \theta}{\Delta_x^2}
+        $$
+        \item Shaded pixel color $=$ illumination factor $\cdot$ pixel color
+        \end{itemize}
+        \column{0.4\textwidth}
+        \begin{figure}
+                \centering
+                \includegraphics[width=0.5\linewidth]{Felix_4.png}
+            \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Shading - Results}
+    \begin{figure}
+                \centering
+                \includegraphics[width=0.5\linewidth]{raytracing_shading_new.png}
+            \end{figure}
+\end{frame}
+
+%\subsection{Multiple light sources}
+
+%    \begin{frame}{Multiple Light Sources - Theory}
+%        \begin{columns}[T]
+%            \column{0.5\textwidth}
+%            \textbf{Physics}
+%            \begin{figure}
+%                \centering
+%                \includegraphics[width=0.5\linewidth]{Multiple lights.png}
+%            \end{figure}
+%            \pause
+%            \begin{equation*}
+%                L_t = \frac{L_1}{\Delta x_1^2} \cos(90^{\circ} -\alpha) + \frac{L_2}{\Delta x_2^2} \cos(90^{\circ} -\beta)
+%            \end{equation*}
+%    
+%            \column{0.5\textwidth}
+%            \textbf{Model}
+%            \pause
+%            \vspace{0.5cm}
+%            \begin{columns}[T]
+%                \column{0.5\textwidth}
+%                Datatype RGB: $
+%                    \begin{bmatrix}
+%                        R\\
+%                        G\\
+%                        B\\
+%                    \end{bmatrix} $
+    
+%                \column{0.5\textwidth}
+%                \begin{itemize}
+%                    \item 0 for black
+%                    \item 1 for white
+%                    \item Brightness is linear
+%                \end{itemize}
+%            \end{columns}
+%            \vspace{1cm}
+%            \pause
+%            \begin{equation*}
+%                \text{Pixel} = \text{Color} \cdot L_t
+%            \end{equation*}
+%        \end{columns}
+%    \end{frame}
+    
+%    \begin{frame}{Multiple Light Sources - Results}
+%        \begin{figure}
+%            \centering
+%            \includegraphics[width=0.5\linewidth]{raytracing_multiple_lights.png}
+%        \end{figure}
+%    \end{frame}
+
+%\subsection{Indirect diffusive illumination}
+
+    \begin{frame}{Indirect Diffusive Illumination - Theory}
+        \begin{columns}[T]
+            \column{0.5\textwidth}
+            \textbf{Physics}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.55\linewidth]{Diffusive light.png}
+            \end{figure}
+            \pause
+            \begin{equation*}
+                L = \sum^\infty_{k=0}T^k L_e
+            \end{equation*}
+            
+            \column{0.5\textwidth}
+            \textbf{Model}
+
+            \pause
+            \begin{columns}[T]
+                \column{0.5\textwidth}
+                \begin{itemize}
+                    \item Direct illumination
+                \end{itemize}
+
+                \column{0.5\textwidth}
+                \begin{itemize}
+                    \item Indirect illumination
+                    \begin{itemize}
+                        \pause
+                        \item Diffusive
+                        \item Specular
+                    \end{itemize}
+                \end{itemize}
+            \end{columns}
+
+            \pause
+            \begin{itemize}
+                \item Diffusion not captured with Ray Tracing
+                \pause
+                \item Modeled with constant term $L_0$
+            \end{itemize}            
+
+            \vspace{0.2cm}
+
+            \begin{equation*}
+                L = L_0 + \sum^\infty_{k=0}T_0^k L_e
+            \end{equation*}
+
+            \vspace{0.2cm}
+
+            \pause
+            \begin{equation*}
+                \text{Pixel} = (L_t + L_0) \cdot \text{Color}
+            \end{equation*}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}{Indirect Diffusive Illumination - Results}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.5\linewidth]{raytracing_ambient_light.png}
+        \end{figure}  
+    \end{frame}
+
+%\subsection{Indirect specular illumination}
+
+    \begin{frame}{Indirect Specular Illumination - Theory}
+        \begin{columns}[T]
+            \column{0.5\textwidth}
+            \textbf{Physics}
+            
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.5\linewidth]{Reflections.png}
+            \end{figure}
+            
+            \pause
+            \begin{itemize}
+                \item Beam gets weaker over time
+                \pause
+                \item Reflected radiance is object specific
+            \end{itemize}
+            
+            \column{0.5\textwidth}
+            \textbf{Model}
+
+            \pause
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\linewidth]{Reflections_model.png}
+            \end{figure}
+
+            \pause
+            \begin{itemize}
+                \item Maximum reflection depth
+                \pause
+                \item Object specific reflection coefficient
+            \end{itemize}
+
+            \pause
+            \begin{equation*}
+                \text{Pixel} = (L_t + L_0) \cdot \text{Color} + c_r \cdot L_r
+            \end{equation*}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}{Indirect Specular Illumination - Results}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.5\linewidth]{raytracing_reflection.png}
+        \end{figure}
+    \end{frame}

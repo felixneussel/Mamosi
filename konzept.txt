@@ -1,0 +1,34 @@
+1. Einleitung
+
+0.5 Minuten
+
+2. Mathematische Herleitung
+
+5 Minuten (Fran): 
+- Herleitung der Rendering-Equation
+- Übergang zum Raytracing
+
+3. Raytracing
+
+In diesem Teil erklären wir anhand von anschaulichen Skizzen, wie die verschiedenen Schritte des Raytracings funktionieren.
+Falls passend, werden zu jedem Schritt Teile des Codes erklärt.
+In jedem Fall wird zu allen Schritten ein Bild gezeigt, das mit allen zuvor erklärten Elementen gerendert wurde und kurz darauf
+eingegangen, inwiefern man darauf die implementierten Aspekte erkennt.
+
+4 Minuten (Felix): 
+- Modellierung von Kamera, Bildschirm und Objekten im dreidimensionalen Raum
+- Lösung des Sichtbarkeitsproblems
+- Berechnung von Schatten
+- Berechnung der Helligkeit je nach Winkel zwischen Normale und eintreffendem Licht sowie Abstand zur Lichtquelle
+
+4.5 Minuten (Alex):
+- Mehrere Lichtquellen
+- Modellierung von diffuser Beleuchtung durch Umgebungslicht
+- Rekursives Raytracing
+
+4. Schluss
+
+1 Minute
+- Bogen schließen zum Anfang (Inwiefern behandelt Raytracing globale Beleuchtung)
+- Schwächen (fehlende Betrachtung diffuser Beleuchtung)
+- Einsatz (Videospiele, Animationsfilme, dazu Rendering in Real-Time und daher auf GPU notwendig)

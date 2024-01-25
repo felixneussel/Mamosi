@@ -1,0 +1,11 @@
+stages:          # List of stages for jobs, and their order of execution
+  - build
+
+beamer:       # This job runs in the build stage, which runs first.
+  stage: build
+  tags: ["latex"]
+  script:
+    - latexmk -pdf presentation.tex
+  artifacts:
+    paths:
+        - presentation.pdf

@@ -1,0 +1,73 @@
+%% Beispiel-Präsentation mit LaTeX Beamer im KIT-Design
+%% entsprechend den Gestaltungsrichtlinien vom 1. August 2020
+%%
+%% Siehe https://sdqweb.ipd.kit.edu/wiki/Dokumentvorlagen
+
+%% Beispiel-Präsentation
+\documentclass[en]{sdqbeamer} 
+
+
+ 
+%% Titelbild
+\titleimage{Titel_v1.png}
+
+%% Gruppenlogo
+\grouplogo{} 
+
+%% Gruppenname und Breite (Standard: 50 mm)
+\groupname{}
+%\groupnamewidth{50mm}
+
+% Beginn der Präsentation
+
+\title[Ray Tracing]{Ray Tracing}
+\subtitle{Mathematical Modelling and Simulation WS 23/24 by PD Dr. Thäter} 
+\author[Mathematical Modelling and Simulation]{Francisca Azocar Dannemann, Alexander Fenk, Felix Neussel}
+
+\date[29.\,1.\,2024]{29. Januar 2024}
+
+% Literatur 
+ 
+\usepackage[bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{SourcesFran.bib}
+\bibhang1em
+
+
+\usepackage{comment}
+\usepackage{wrapfig}
+
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+ 
+%Titelseite
+\KITtitleframe
+
+%Inhaltsverzeichnis
+\begin{frame}{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\include{1_introduction}
+
+\include{2_mathmatics}
+
+\include{3_raytracing}
+
+\include{4_conclusion}
+
+
+\begin{frame}
+
+\printbibliography
+\end{frame}
+
+
+
+
+
+
+
+%\backupend
+
+\end{document}
