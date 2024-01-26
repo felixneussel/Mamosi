@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  26 JAN 2024 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  26 JAN 2024 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,7 +80,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.4 \column
-           {0.6\textwidth}<2->
+           {0.6\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -94,7 +94,7 @@ Missing character: There is no 6 in font nullfont!
 <to be read again> 
                    }
 l.4 \column{0.6\textwidth}
-                          <2->
+                          
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -103,7 +103,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    }
 l.4 \column{0.6\textwidth}
-                          <2->
+                          
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -111,15 +111,15 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no < in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no > in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--5
 []
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no D in font nullfont!
@@ -140,6 +140,10 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -239,6 +243,10 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -277,6 +285,10 @@ Overfull \hbox (10.00002pt too wide) in paragraph at lines 13--14
 \OMS/cmsy/m/n/10 ,$
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
@@ -325,6 +337,10 @@ Overfull \hbox (7.7778pt too wide) in paragraph at lines 14--15
 \OT1/cmr/m/n/10 =$
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -587,6 +603,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 25--28
 [][]
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -604,7 +624,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.29             \item For each grid point $o\in\R
+l.29 ...     \item<1-> For each grid point $o\in\R
                                                   ^3$, define
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -663,6 +683,10 @@ Overfull \hbox (85.49173pt too wide) detected at line 35
 OT1/cmr/m/n/10 :  \OML/cmm/m/it/10 t > \OT1/cmr/m/n/10 0\OMS/cmsy/m/n/10 g
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -703,6 +727,10 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -763,6 +791,10 @@ Overfull \hbox (7.7778pt too wide) in paragraph at lines 37--38
 \OT1/cmr/m/n/10 =$
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -822,7 +854,7 @@ Overfull \hbox (7.7778pt too wide) in paragraph at lines 38--39
 
 ! Undefined control sequence.
 l.40         \column
-                    {0.4\textwidth}
+                    {0.4\textwidth}<1->
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -836,7 +868,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    }
 l.40         \column{0.4\textwidth}
-                                   
+                                   <1->
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -845,7 +877,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    }
 l.40         \column{0.4\textwidth}
-                                   
+                                   <1->
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -853,6 +885,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -985,6 +1021,7 @@ Overfull \hbox (23.42598pt too wide) in paragraph at lines 40--47
 Missing character: There is no V in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1177,6 +1214,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 55--58
 [][]
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -1198,7 +1239,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.59 ...    \item Light source position: $x_{\text
+l.59 ...\item<1-> Light source position: $x_{\text
                                                   {light}}\in\R^3$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1220,6 +1261,10 @@ Overfull \hbox (37.39958pt too wide) in paragraph at lines 59--60
 \OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 2[]$ 
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1239,8 +1284,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.60         \item Intersection point: $x_{\text
-                                                {inter}}$
+l.60 ...   \item<2-> Intersection point: $x_{\text
+                                                  {inter}}$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1252,6 +1297,10 @@ Overfull \hbox (24.7311pt too wide) in paragraph at lines 60--61
 \OML/cmm/m/it/10 x[]$ 
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -1333,6 +1382,10 @@ Overfull \hbox (165.10815pt too wide) detected at line 67
 ]  \OT1/cmr/m/n/10 :  \OML/cmm/m/it/10 t > \OT1/cmr/m/n/10 0\OMS/cmsy/m/n/10 g
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1398,6 +1451,10 @@ Overfull \hbox (24.7311pt too wide) in paragraph at lines 68--69
 \OML/cmm/m/it/10 x[]$
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
@@ -1435,7 +1492,7 @@ Overfull \hbox (7.7778pt too wide) in paragraph at lines 69--70
 
 ! Undefined control sequence.
 l.71         \column
-                    {0.4\textwidth}
+                    {0.4\textwidth}<1->
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1449,7 +1506,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    }
 l.71         \column{0.4\textwidth}
-                                   
+                                   <1->
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1458,7 +1515,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    }
 l.71         \column{0.4\textwidth}
-                                   
+                                   <1->
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1466,6 +1523,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -1795,6 +1856,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 86--89
 [][]
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -1916,6 +1981,10 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 0$
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -1968,6 +2037,10 @@ Overfull \hbox (85.9786pt too wide) detected at line 99
 \OML/cmm/m/it/10 I[][]
  []
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -2024,7 +2097,7 @@ Overfull \hbox (2.77779pt too wide) in paragraph at lines 100--101
 
 ! Undefined control sequence.
 l.102         \column
-                     {0.4\textwidth}
+                     {0.4\textwidth}<1->
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2038,7 +2111,7 @@ Missing character: There is no 4 in font nullfont!
 <to be read again> 
                    }
 l.102         \column{0.4\textwidth}
-                                    
+                                    <1->
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2047,7 +2120,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    }
 l.102         \column{0.4\textwidth}
-                                    
+                                    <1->
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2055,6 +2128,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
 
