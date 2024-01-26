@@ -3,18 +3,18 @@
 \begin{columns}
 \column{0.6\textwidth}
     \begin{itemize}
-   \item 3-D-coordinate system
-   \item Define:
+   \item<1-> 3-D-coordinate system
+   \item<2-> Define:
    \begin{itemize}
        \item Camera position $x_{\text{camera}}$
        \item Screen $=$ rectangle
        \item Geometrical objects: Spheres, Triangles, ...
    \end{itemize}
-   \item Grid of points on screen $\Leftrightarrow$ pixels of image
-   \item Pixel Color $=$ Vector of red, green, blue intensities
-   \item \textbf{Goal:} Compute color of each pixel
+   \item<3-> Grid of points on screen $\Leftrightarrow$ pixels of image
+   \item<4-> Pixel Color $=$ Vector of red, green, blue intensities
+   \item<5-> \textbf{Goal:} Compute color of each pixel
    \end{itemize}
-   \column{0.4\textwidth}
+   \column{0.4\textwidth}<1->
    \begin{figure}
                 \centering
                 \includegraphics[width=0.7\linewidth]{Felix_1.png}
@@ -26,18 +26,18 @@
     \begin{columns}
         \column{0.6\textwidth}
         \begin{itemize}
-            \item For each grid point $o\in\R^3$, define 
+            \item<1-> For each grid point $o\in\R^3$, define 
             $$
             \text{Direction: }d := o - x_{\text{camera}}
             $$
             $$
             \text{Ray: } \{o + t d \ : \ t > 0\}
             $$
-            \item For each object, compute intersection with ray
-            \item No intersection $\Rightarrow$ Pixel color $=$ background color (e.g. black)
-            \item $\exists$ intersection $\Rightarrow$ Pixel color $=$ color of closest object
+            \item<2-> For each object, compute intersection with ray
+            \item<3-> No intersection $\Rightarrow$ Pixel color $=$ background color (e.g. black)
+            \item<4-> $\exists$ intersection $\Rightarrow$ Pixel color $=$ color of closest object
         \end{itemize}
-        \column{0.4\textwidth}
+        \column{0.4\textwidth}<1->
         \begin{figure}
                 \centering
                 \includegraphics[width=0.6\linewidth]{Felix_2.png}
@@ -56,19 +56,19 @@
     \begin{columns}
         \column{0.6\textwidth}
         \begin{itemize}
-        \item Light source position: $x_{\text{light}}\in\R^3$
-        \item Intersection point: $x_{\text{inter}}$
-        \item Define
+        \item<1-> Light source position: $x_{\text{light}}\in\R^3$
+        \item<2-> Intersection point: $x_{\text{inter}}$
+        \item<3-> Define
         $$
         \text{Shadow direction: }d_{\text{shadow}} := x_{\text{light}} - x_{\text{inter}}
         $$
         $$
         \text{Shadow ray: }\{x_{\text{inter}} + t d_{\text{shadow}} \ : \ t > 0\}
         $$
-        \item Shadow ray intersects other object $\Rightarrow$ $x_{\text{inter}}$ lies inside shadow
-        \item $\Rightarrow$ Pixel color $=$ background color
+        \item<4-> Shadow ray intersects other object $\Rightarrow$ $x_{\text{inter}}$ lies inside shadow
+        \item<5-> $\Rightarrow$ Pixel color $=$ background color
         \end{itemize}
-        \column{0.4\textwidth}
+        \column{0.4\textwidth}<1->
         \begin{figure}
                 \centering
                 \includegraphics[width=0.55\linewidth]{Felix_3.png}
@@ -87,23 +87,22 @@
     \begin{columns}
         \column{0.6\textwidth}
         \begin{itemize}
-        \item Brightness depends on: 
+        \item<1-> Brightness depends on: 
         \begin{itemize}
             \item Distance to light source
             \item Angle $\theta$ between shadow ray and surface normal $n$
-            \item $L > 0$: inherent magnitude of light source
+            \item $I_s > 0$: Intensity of light source
         \end{itemize}
-        \item Compute illumination factor 
+        \item<2-> Compute illumination factor 
         $$
-        L \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
-        = L \frac{\cos \theta}{\Delta_x^2}
+        I_s \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
         $$
-        \item Shaded pixel color $=$ illumination factor $\cdot$ pixel color
+        \item<3-> Shaded pixel color $=$ illumination factor $\cdot$ pixel color
         \end{itemize}
-        \column{0.4\textwidth}
+        \column{0.4\textwidth}<1->
         \begin{figure}
                 \centering
-                \includegraphics[width=0.5\linewidth]{Felix_4.png}
+                \includegraphics[width=0.7\linewidth]{Felix_4.png}
             \end{figure}
     \end{columns}
 \end{frame}
