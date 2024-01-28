@@ -25,7 +25,6 @@
 \column<2->{0.35\textwidth}
 \begin{figure}
 \includegraphics[width=0.5\linewidth]{Reflections.png}
-\caption{Illustration of radiance $L(x,\omega)$ (taken from \cite{Pharr.2023})}
 \end{figure}
 \end{columns}
 
@@ -42,7 +41,7 @@
 L_r(x, \omega_r) = \int_{H^2} f_r(x, \omega_i \rightarrow \omega_r) L_i(x, \omega_i) \cos \theta_i \mathrm{d}\omega_i
 \end{equation}
     \item<4-> Bidirectional Distribution Function $f_r(x, \omega_i \rightarrow \omega_r) $
-    \item<4-> $\cos \theta_i$ from Lambert's Law
+    \item<5-> $\cos \theta_i$ from Lambert's Law
 \end{itemize}
 \column<2->{0.35\textwidth}
 \begin{figure}
@@ -52,16 +51,9 @@ L_r(x, \omega_r) = \int_{H^2} f_r(x, \omega_i \rightarrow \omega_r) L_i(x, \omeg
 \end{frame}
 
 \begin{frame}{Bidirectional Distribution Function (BRDF)}
-\begin{equation}
-\mathrm{d}L_r = f_r(x, \omega_i \rightarrow \omega_r) \mathrm{d}E
-\end{equation}
-\begin{itemize}
-	\pause
-    \item  $\mathrm{d}E$ $\rightarrow$ incoming light intensity from direction $\omega_i$ 
-    \pause
-    \item $\mathrm{d}L_r$ $=$ outgoing radiance in direction of $\omega_r$
-    \pause
-\end{itemize}
+\begin{equation*}
+L_r(x, \omega_r) = \int_{H^2} f_r(x, \omega_i \rightarrow \omega_r) L_i(x, \omega_i) \cos \theta_i \mathrm{d}\omega_i
+\end{equation*}
 \begin{center}
 \begin{figure}
 \includegraphics[scale = 0.4]{BRDF.png}
@@ -71,6 +63,9 @@ L_r(x, \omega_r) = \int_{H^2} f_r(x, \omega_i \rightarrow \omega_r) L_i(x, \omeg
 \end{frame}
 
 \begin{frame}{Lambert's Law}
+\begin{equation*}
+L_r(x, \omega_r) = \int_{H^2} f_r(x, \omega_i \rightarrow \omega_r) L_i(x, \omega_i) \cos \theta_i \mathrm{d}\omega_i
+\end{equation*}
 \begin{center}
 \begin{figure}
     \includegraphics[scale = 0.5]{lambert.png}
