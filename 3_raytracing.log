@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  28 JAN 2024 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.14)  28 JAN 2024 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **3_raytracing.tex
 (./3_raytracing.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18>
+LaTeX2e <2022-06-01> pre-release-0 (develop 2022-6-14 branch)
+L3 programming layer <2022-06-02>
 ! Undefined control sequence.
 l.1 \section
             {Implementing Raytracing}
@@ -2033,8 +2033,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (85.9786pt too wide) detected at line 100
-\OML/cmm/m/it/10 I[][]
+Overfull \hbox (110.78027pt too wide) detected at line 100
+\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I[][]
  []
 
 Missing character: There is no < in font nullfont!
@@ -2075,6 +2075,8 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
@@ -2088,6 +2090,11 @@ Missing character: There is no r in font nullfont!
 
 Overfull \hbox (7.7778pt too wide) in paragraph at lines 101--102
 \OT1/cmr/m/n/10 =$
+ []
+
+
+Overfull \hbox (11.46844pt too wide) in paragraph at lines 101--102
+\OML/cmm/m/it/10 L[]$
  []
 
 
@@ -2573,79 +2580,18 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.178             \pause
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Environment equation* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179             \begin{equation*}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no L in font nullfont!
-Missing character: There is no = in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.180                 L = \sum
-                              ^\infty_{k=0}T^k L_e
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \begin{frame} on input line 170 ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181             \end{equation*}
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.181             \end{equation*}
-                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 170--182
+Overfull \hbox (20.0pt too wide) in paragraph at lines 170--178
 [][]
  []
 
 
-Overfull \hbox (37.37755pt too wide) in paragraph at lines 170--182
+Overfull \hbox (37.37755pt too wide) in paragraph at lines 170--178
 \OT1/cmr/bx/n/10 Physics
  []
 
-
-Overfull \hbox (50.51993pt too wide) in paragraph at lines 170--182
-[][] \OML/cmm/m/it/10 T[]L[]$ 
- []
-
 ! Undefined control sequence.
-l.183             \column
+l.179             \column
                          {0.5\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2659,7 +2605,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.183             \column{0.5\textwidth}
+l.179             \column{0.5\textwidth}
                                         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2668,7 +2614,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.183             \column{0.5\textwidth}
+l.179             \column{0.5\textwidth}
                                         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2678,17 +2624,17 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 183--185
+Overfull \hbox (20.0pt too wide) in paragraph at lines 179--181
 []
  []
 
 
-Overfull \hbox (31.84012pt too wide) in paragraph at lines 183--185
+Overfull \hbox (31.84012pt too wide) in paragraph at lines 179--181
 \OT1/cmr/bx/n/10 Model 
  []
 
 ! Undefined control sequence.
-l.186             \pause
+l.182             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2703,7 +2649,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187             \begin{columns}
+l.183             \begin{columns}
                                  [T]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2713,7 +2659,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.188                 \column
+l.184                 \column
                              {0.5\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2727,7 +2673,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.188                 \column{0.5\textwidth}
+l.184                 \column{0.5\textwidth}
                                             
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2736,7 +2682,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.188                 \column{0.5\textwidth}
+l.184                 \column{0.5\textwidth}
                                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2746,7 +2692,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 187--189
+Overfull \hbox (20.0pt too wide) in paragraph at lines 183--185
 [] 
  []
 
@@ -2769,7 +2715,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.193                 \column
+l.189                 \column
                              {0.5\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2783,7 +2729,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.193                 \column{0.5\textwidth}
+l.189                 \column{0.5\textwidth}
                                             
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2792,7 +2738,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.193                 \column{0.5\textwidth}
+l.189                 \column{0.5\textwidth}
                                             
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2802,7 +2748,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 193--194
+Overfull \hbox (20.0pt too wide) in paragraph at lines 189--190
 [] 
  []
 
@@ -2827,7 +2773,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.197                         \pause
+l.193                         \pause
                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2859,14 +2805,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202             \end{columns}
+l.198             \end{columns}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.204             \pause
+l.200             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2875,7 +2821,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 205--205
+Overfull \hbox (20.0pt too wide) in paragraph at lines 201--201
 [] 
  []
 
@@ -2914,7 +2860,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.207                 \pause
+l.203                 \pause
                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2946,75 +2892,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (11.2917pt too wide) in paragraph at lines 208--209
+Overfull \hbox (11.2917pt too wide) in paragraph at lines 204--205
 \OML/cmm/m/it/10 L[]$ 
  []
 
-
-! LaTeX Error: Environment equation* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213             \begin{equation*}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no L in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no L in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.214                 L = L_
-                            0 + \sum^\infty_{k=0}T_0^k L_e
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \begin{frame} on input line 170 ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215             \end{equation*}
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.215             \end{equation*}
-                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 214--216
-[]
- []
-
-
-Overfull \hbox (12.26393pt too wide) in paragraph at lines 214--216
-[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (50.51993pt too wide) in paragraph at lines 214--216
-[][] \OML/cmm/m/it/10 T[]L[]$ 
- []
-
 ! Undefined control sequence.
-l.219             \pause
+l.209             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3029,15 +2912,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.220             \begin{equation*}
+l.210             \begin{equation*}
                                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.221                 \text
-                           {Pixel} = (L_t + L_0) \cdot \text{Color}
+l.211                 \text
+                           {Pixel} = (L_d + L_0) \cdot \text{Color}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3055,13 +2938,13 @@ Missing character: There is no L in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.221                 \text{Pixel} = (L_
-                                        t + L_0) \cdot \text{Color}
+l.211                 \text{Pixel} = (L_
+                                        d + L_0) \cdot \text{Color}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.221 ...   \text{Pixel} = (L_t + L_0) \cdot \text
+l.211 ...   \text{Pixel} = (L_d + L_0) \cdot \text
                                                   {Color}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3076,7 +2959,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.222             \end{equation*}
+l.212             \end{equation*}
                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3085,7 +2968,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.222             \end{equation*}
+l.212             \end{equation*}
                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3100,29 +2983,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223         \end{columns}
+l.213         \end{columns}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 221--225
+Overfull \hbox (20.0pt too wide) in paragraph at lines 211--215
 []
  []
 
 
-Overfull \hbox (11.29865pt too wide) in paragraph at lines 221--225
+Overfull \hbox (12.44067pt too wide) in paragraph at lines 211--215
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (17.95839pt too wide) in paragraph at lines 221--225
+Overfull \hbox (17.95839pt too wide) in paragraph at lines 211--215
 \OML/cmm/m/it/10 L[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (25.52689pt too wide) in paragraph at lines 221--225
+Overfull \hbox (25.52689pt too wide) in paragraph at lines 211--215
 []$
  []
 
@@ -3170,14 +3053,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227         \begin{figure}
+l.217         \begin{figure}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.229             \includegraphics
+l.219             \includegraphics
                                   [width=0.5\linewidth]{raytracing_ambient_l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3198,7 +3081,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.229 ...    \includegraphics[width=0.5\linewidth]
+l.219 ...    \includegraphics[width=0.5\linewidth]
                                                   {raytracing_ambient_light....
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3207,7 +3090,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.229 ...    \includegraphics[width=0.5\linewidth]
+l.219 ...    \includegraphics[width=0.5\linewidth]
                                                   {raytracing_ambient_light....
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3230,13 +3113,13 @@ Missing character: There is no g in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.229 ...graphics[width=0.5\linewidth]{raytracing_
+l.219 ...graphics[width=0.5\linewidth]{raytracing_
                                                   ambient_light.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.229 ...\linewidth]{raytracing_ambient_light.png}
+l.219 ...\linewidth]{raytracing_ambient_light.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3245,13 +3128,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{frame} on input line 226 ended by \end{figure}.
+! LaTeX Error: \begin{frame} on input line 216 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230         \end{figure}
+l.220         \end{figure}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3260,7 +3143,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.230         \end{figure}
+l.220         \end{figure}
                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3271,7 +3154,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.230         \end{figure}
+l.220         \end{figure}
                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3280,12 +3163,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 226--232
+Overfull \hbox (20.0pt too wide) in paragraph at lines 216--222
 [][]
  []
 
 
-Overfull \hbox (75.5799pt too wide) in paragraph at lines 226--232
+Overfull \hbox (75.5799pt too wide) in paragraph at lines 216--222
 []\OML/cmm/m/it/10 mbient[]ight:png$
  []
 
@@ -3331,7 +3214,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236         \begin{columns}
+l.226         \begin{columns}
                              [T]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3341,7 +3224,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.237             \column
+l.227             \column
                          {0.5\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3355,7 +3238,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.237             \column{0.5\textwidth}
+l.227             \column{0.5\textwidth}
                                         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3364,7 +3247,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.237             \column{0.5\textwidth}
+l.227             \column{0.5\textwidth}
                                         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3374,12 +3257,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 235--239
+Overfull \hbox (20.0pt too wide) in paragraph at lines 225--229
 [][]
  []
 
 
-Overfull \hbox (37.37755pt too wide) in paragraph at lines 235--239
+Overfull \hbox (37.37755pt too wide) in paragraph at lines 225--229
 \OT1/cmr/bx/n/10 Physics 
  []
 
@@ -3390,14 +3273,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240             \begin{figure}
+l.230             \begin{figure}
                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.242                 \includegraphics
+l.232                 \includegraphics
                                       [width=0.5\linewidth]{Reflections.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3418,7 +3301,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.242 ...    \includegraphics[width=0.5\linewidth]
+l.232 ...    \includegraphics[width=0.5\linewidth]
                                                   {Reflections.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3427,7 +3310,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.242 ...    \includegraphics[width=0.5\linewidth]
+l.232 ...    \includegraphics[width=0.5\linewidth]
                                                   {Reflections.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3453,20 +3336,20 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-! LaTeX Error: \begin{frame} on input line 235 ended by \end{figure}.
+! LaTeX Error: \begin{frame} on input line 225 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.243             \end{figure}
+l.233             \end{figure}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.245             \pause
+l.235             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3475,7 +3358,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 246--246
+Overfull \hbox (20.0pt too wide) in paragraph at lines 236--236
 [] 
  []
 
@@ -3502,7 +3385,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.248                 \pause
+l.238                 \pause
                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3544,7 +3427,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.252             \column
+l.242             \column
                          {0.5\textwidth}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3558,7 +3441,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.252             \column{0.5\textwidth}
+l.242             \column{0.5\textwidth}
                                         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3567,7 +3450,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.252             \column{0.5\textwidth}
+l.242             \column{0.5\textwidth}
                                         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3577,17 +3460,17 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 252--254
+Overfull \hbox (20.0pt too wide) in paragraph at lines 242--244
 []
  []
 
 
-Overfull \hbox (31.84012pt too wide) in paragraph at lines 252--254
+Overfull \hbox (31.84012pt too wide) in paragraph at lines 242--244
 \OT1/cmr/bx/n/10 Model 
  []
 
 ! Undefined control sequence.
-l.255             \pause
+l.245             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3602,14 +3485,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256             \begin{figure}
+l.246             \begin{figure}
                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.258                 \includegraphics
+l.248                 \includegraphics
                                       [width=0.8\linewidth]{Reflections_mode...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3630,7 +3513,7 @@ Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.258 ...    \includegraphics[width=0.8\linewidth]
+l.248 ...    \includegraphics[width=0.8\linewidth]
                                                   {Reflections_model.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3639,7 +3522,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.258 ...    \includegraphics[width=0.8\linewidth]
+l.248 ...    \includegraphics[width=0.8\linewidth]
                                                   {Reflections_model.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3663,13 +3546,13 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.258 ...raphics[width=0.8\linewidth]{Reflections_
+l.248 ...raphics[width=0.8\linewidth]{Reflections_
                                                   model.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.258 ...dth=0.8\linewidth]{Reflections_model.png}
+l.248 ...dth=0.8\linewidth]{Reflections_model.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3678,13 +3561,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{frame} on input line 235 ended by \end{figure}.
+! LaTeX Error: \begin{frame} on input line 225 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259             \end{figure}
+l.249             \end{figure}
                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3693,7 +3576,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259             \end{figure}
+l.249             \end{figure}
                               
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3704,7 +3587,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259             \end{figure}
+l.249             \end{figure}
                               
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3713,12 +3596,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (44.4249pt too wide) in paragraph at lines 258--260
+Overfull \hbox (44.4249pt too wide) in paragraph at lines 248--250
 []$[]\OML/cmm/m/it/10 odel:png$ 
  []
 
 ! Undefined control sequence.
-l.261             \pause
+l.251             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3727,7 +3610,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 262--262
+Overfull \hbox (20.0pt too wide) in paragraph at lines 252--252
 [] 
  []
 
@@ -3754,7 +3637,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.264                 \pause
+l.254                 \pause
                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3798,7 +3681,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.268             \pause
+l.258             \pause
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3813,15 +3696,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269             \begin{equation*}
+l.259             \begin{equation*}
                                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.270                 \text
-                           {Pixel} = (L_t + L_0) \cdot \text{Color} + c_r \c...
+l.260                 \text
+                           {Pixel} = (L_d + L_0) \cdot \text{Color} + c_r \c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3839,13 +3722,13 @@ Missing character: There is no L in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.270                 \text{Pixel} = (L_
-                                        t + L_0) \cdot \text{Color} + c_r \c...
+l.260                 \text{Pixel} = (L_
+                                        d + L_0) \cdot \text{Color} + c_r \c...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.270 ...   \text{Pixel} = (L_t + L_0) \cdot \text
+l.260 ...   \text{Pixel} = (L_d + L_0) \cdot \text
                                                   {Color} + c_r \cdot L_r
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3854,13 +3737,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{frame} on input line 235 ended by \end{equation*}.
+! LaTeX Error: \begin{frame} on input line 225 ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271             \end{equation*}
+l.261             \end{equation*}
                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3869,7 +3752,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.271             \end{equation*}
+l.261             \end{equation*}
                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3878,45 +3761,45 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-! LaTeX Error: \begin{frame} on input line 235 ended by \end{columns}.
+! LaTeX Error: \begin{frame} on input line 225 ended by \end{columns}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272         \end{columns}
+l.262         \end{columns}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 270--274
+Overfull \hbox (20.0pt too wide) in paragraph at lines 260--264
 []
  []
 
 
-Overfull \hbox (11.29865pt too wide) in paragraph at lines 270--274
+Overfull \hbox (12.44067pt too wide) in paragraph at lines 260--264
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (17.95839pt too wide) in paragraph at lines 270--274
+Overfull \hbox (17.95839pt too wide) in paragraph at lines 260--264
 \OML/cmm/m/it/10 L[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (33.30469pt too wide) in paragraph at lines 270--274
+Overfull \hbox (33.30469pt too wide) in paragraph at lines 260--264
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (11.5336pt too wide) in paragraph at lines 270--274
+Overfull \hbox (11.5336pt too wide) in paragraph at lines 260--264
 \OML/cmm/m/it/10 c[] \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (11.23383pt too wide) in paragraph at lines 270--274
+Overfull \hbox (11.23383pt too wide) in paragraph at lines 260--264
 \OML/cmm/m/it/10 L[]$
  []
 
@@ -3963,14 +3846,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276         \begin{figure}
+l.266         \begin{figure}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.278             \includegraphics
+l.268             \includegraphics
                                   [width=0.5\linewidth]{raytracing_reflectio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3991,7 +3874,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.278 ...    \includegraphics[width=0.5\linewidth]
+l.268 ...    \includegraphics[width=0.5\linewidth]
                                                   {raytracing_reflection.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4000,7 +3883,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.278 ...    \includegraphics[width=0.5\linewidth]
+l.268 ...    \includegraphics[width=0.5\linewidth]
                                                   {raytracing_reflection.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4023,13 +3906,13 @@ Missing character: There is no g in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.278 ...graphics[width=0.5\linewidth]{raytracing_
+l.268 ...graphics[width=0.5\linewidth]{raytracing_
                                                   reflection.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.278 ...0.5\linewidth]{raytracing_reflection.png}
+l.268 ...0.5\linewidth]{raytracing_reflection.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4038,13 +3921,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{frame} on input line 275 ended by \end{figure}.
+! LaTeX Error: \begin{frame} on input line 265 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279         \end{figure}
+l.269         \end{figure}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4053,7 +3936,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.279         \end{figure}
+l.269         \end{figure}
                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4064,7 +3947,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.279         \end{figure}
+l.269         \end{figure}
                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4080,11 +3963,11 @@ my insertion and my current dilemma will both disappear.
 
  
 Here is how much of TeX's memory you used:
- 29 strings out of 478994
- 529 string characters out of 5858184
- 292044 words of memory out of 5000000
- 17614 multiletter control sequences out of 15000+600000
- 403738 words of font info for 28 fonts, out of 8000000 for 9000
+ 29 strings out of 478040
+ 529 string characters out of 5843119
+ 307744 words of memory out of 5000000
+ 18565 multiletter control sequences out of 15000+600000
+ 469567 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,3n,15p,142b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,3n,12p,153b,156s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
