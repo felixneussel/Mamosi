@@ -1,16 +1,20 @@
 \section{Conclusion}
 
 \begin{frame}{Conclusion}
+\begin{columns}
+\column{0.6\textwidth}
 \begin{itemize}
-    \item Ray tracing is model for approximating global illumination of scene as described by rendering equation
-    \pause
-    \item Specular reflection depicted well, diffuse reflection limited
-    \pause
-    \item Foundation for other algorithms which improve diffuse reflection, e.g. path tracing
-    \pause
-    \item Applications: video games and animated motion pictures, ...
-    \pause
-    \item Real time rendering requires implementation in compiled
+    \item<1-> Ray tracing: approximates solution of rendering equation
+    \item<2-> Specular reflection depicted well, diffuse reflection limited
+    \item<3-> Foundation for other algorithms which improve diffuse reflection, e.g. path tracing
+    \item<4-> Applications: video games, animated motion pictures, ...
+    \item<5-> Real time rendering requires implementation in compiled
     language and GPU
 \end{itemize}
+\column{0.4\textwidth}<1->
+\begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{raytracing_reflection.png}
+        \end{figure}
+\end{columns}
 \end{frame}

@@ -91,14 +91,14 @@
         \item<1-> Brightness depends on: 
         \begin{itemize}
             \item Distance to light source
-            \item Angle $\theta$ between shadow ray and surface normal $n$
             \item $I_s > 0$: Intensity of light source
+            \item Angle $\theta$ between shadow ray and surface normal $n$
         \end{itemize}
         \item<2-> Compute illumination factor
         $$
         L_d = I_s \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
         $$
-        \item<3-> Shaded pixel color $=$ illumination factor ($L_d$) $\cdot$ pixel color
+        \item<3-> Shaded pixel color $=$ $L_d$ $\cdot$ pixel color
         \end{itemize}
         \column{0.4\textwidth}<1->
         \begin{figure}
