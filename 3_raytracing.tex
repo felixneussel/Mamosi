@@ -94,11 +94,11 @@
             \item Angle $\theta$ between shadow ray and surface normal $n$
             \item $I_s > 0$: Intensity of light source
         \end{itemize}
-        \item<2-> Compute illumination factor 
+        \item<2-> Compute illumination factor
         $$
-        I_s \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
+        L_d = I_s \frac{\cos \theta}{\|x_{\text{inter}} - x_{\text{light}}\|^2}
         $$
-        \item<3-> Shaded pixel color $=$ illumination factor $\cdot$ pixel color
+        \item<3-> Shaded pixel color $=$ illumination factor ($L_d$) $\cdot$ pixel color
         \end{itemize}
         \column{0.4\textwidth}<1->
         \begin{figure}
@@ -175,10 +175,6 @@
                 \centering
                 \includegraphics[width=0.55\linewidth]{Diffusive light.png}
             \end{figure}
-            \pause
-            \begin{equation*}
-                L = \sum^\infty_{k=0}T^k L_e
-            \end{equation*}
             
             \column{0.5\textwidth}
             \textbf{Model}
@@ -210,15 +206,9 @@
 
             \vspace{0.2cm}
 
-            \begin{equation*}
-                L = L_0 + \sum^\infty_{k=0}T_0^k L_e
-            \end{equation*}
-
-            \vspace{0.2cm}
-
             \pause
             \begin{equation*}
-                \text{Pixel} = (L_t + L_0) \cdot \text{Color}
+                \text{Pixel} = (L_d + L_0) \cdot \text{Color}
             \end{equation*}
         \end{columns}
     \end{frame}
@@ -267,7 +257,7 @@
 
             \pause
             \begin{equation*}
-                \text{Pixel} = (L_t + L_0) \cdot \text{Color} + c_r \cdot L_r
+                \text{Pixel} = (L_d + L_0) \cdot \text{Color} + c_r \cdot L_r
             \end{equation*}
         \end{columns}
     \end{frame}
